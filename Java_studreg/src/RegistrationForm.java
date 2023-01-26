@@ -87,7 +87,7 @@ public class RegistrationForm extends JFrame {
         User user = null;
         final  String DB_URL = "jdbc:mysql://127.0.0.1:3306/student_db";
         final String USERNAME = "root";
-        final String PASSWORD = "kinotech03";
+        final String PASSWORD = "";
 
         try{
             Connection conn = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
